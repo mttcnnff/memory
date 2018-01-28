@@ -189,7 +189,6 @@ function getRandomCards() {
   let cards = _.map(letters.slice(), function (letter) {
    return {letter: letter, state: "unmatched"}; 
   });
-  console.log(cards);
   return cards;
 }
 
