@@ -24,3 +24,9 @@ h1 { text-align: center; }
 .hidden {
 	display: none;
 }
+
+.content-right {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
