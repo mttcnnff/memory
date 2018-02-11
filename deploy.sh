@@ -37,7 +37,7 @@ REL_TAR=~/src/memory/_build/prod/rel/memory/releases/0.0.1/memory.tar.gz
 (cd ~/www/memory && tar xzvf $REL_TAR)
 
 crontab - <<CRONTAB
-@reboot bash /home/memory/src/memory/start.sh
+@reboot bash /home/mymemory/src/memory/start.sh
 CRONTAB
 
 #. start.sh
