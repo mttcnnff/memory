@@ -108,7 +108,6 @@ class MemoryGame extends React.Component {
   }
 
   gotView(view) {
-    console.log("New view", view);
     this.setState({
             cards: view.game.cards,
             lock: false
